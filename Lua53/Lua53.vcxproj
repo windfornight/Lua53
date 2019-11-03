@@ -88,6 +88,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)LuaSrc\;$(ProjectDir)TestSrc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -174,6 +175,9 @@
     <ClCompile Include="LuaSrc\lutf8lib.c" />
     <ClCompile Include="LuaSrc\lvm.c" />
     <ClCompile Include="LuaSrc\lzio.c" />
+    <ClCompile Include="TestSrc\main.c" />
+    <ClCompile Include="TestSrc\scriptFuncCall.c" />
+    <ClCompile Include="TestSrc\utils.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LuaSrc\lapi.h" />
@@ -202,6 +206,8 @@
     <ClInclude Include="LuaSrc\lundump.h" />
     <ClInclude Include="LuaSrc\lvm.h" />
     <ClInclude Include="LuaSrc\lzio.h" />
+    <ClInclude Include="TestSrc\scriptFuncCall.h" />
+    <ClInclude Include="TestSrc\utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

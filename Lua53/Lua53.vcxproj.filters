@@ -120,6 +120,15 @@
     <ClCompile Include="LuaSrc\lzio.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TestSrc\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSrc\scriptFuncCall.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSrc\utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LuaSrc\lapi.h">
@@ -198,6 +207,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LuaSrc\lzio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSrc\scriptFuncCall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSrc\utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
