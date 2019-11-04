@@ -176,6 +176,7 @@
     <ClCompile Include="LuaSrc\lvm.c" />
     <ClCompile Include="LuaSrc\lzio.c" />
     <ClCompile Include="TestSrc\main.c" />
+    <ClCompile Include="TestSrc\registerCFunc.c" />
     <ClCompile Include="TestSrc\scriptFuncCall.c" />
     <ClCompile Include="TestSrc\utils.c" />
   </ItemGroup>
@@ -206,6 +207,7 @@
     <ClInclude Include="LuaSrc\lundump.h" />
     <ClInclude Include="LuaSrc\lvm.h" />
     <ClInclude Include="LuaSrc\lzio.h" />
+    <ClInclude Include="TestSrc\registerCFunc.h" />
     <ClInclude Include="TestSrc\scriptFuncCall.h" />
     <ClInclude Include="TestSrc\utils.h" />
   </ItemGroup>

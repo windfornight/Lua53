@@ -129,6 +129,9 @@
     <ClCompile Include="TestSrc\utils.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TestSrc\registerCFunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LuaSrc\lapi.h">
@@ -213,6 +216,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TestSrc\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSrc\registerCFunc.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
