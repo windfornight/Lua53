@@ -3,9 +3,9 @@
 #include "registerCFunc.h"
 
 
-int main (int argc, char **argv) {
-	//testScriptCallFunc();
-
-	testRegisterCFunc(argc, argv);
-	return 0;
-}
+//int main (int argc, char **argv) {
+//	//testScriptCallFunc();
+//
+//	testRegisterCFunc(argc, argv);
+//	return 0;
+//}
